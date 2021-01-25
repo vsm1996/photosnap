@@ -1,3 +1,7 @@
+.main-logo-container {
+  height: fit-content;
+}
+
 .main-logo {
   cursor: pointer;
 }
