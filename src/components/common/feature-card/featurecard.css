@@ -1,0 +1,37 @@
+.feature-card {
+  width: 21.875rem;
+  height: 14.75rem;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.feature-card__svg {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 3rem;
+}
+
+.feature-card__title {
+  margin-bottom: 1rem;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.feature-card__text {
+  font-size: 15px;
+  line-height: 25px;
+  opacity: 0.6;
+}
+.responsive {
+  background: url("../../../assets/features/desktop/responsive.svg") center
+    no-repeat;
+}
+.no-limit {
+  background: url("../../../assets/features/desktop/no-limit.svg") center
+    no-repeat;
+}
+.embed {
+  background: url("../../../assets/features/desktop/embed.svg") center no-repeat;
+}

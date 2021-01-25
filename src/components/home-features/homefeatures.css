@@ -1,0 +1,6 @@
+.home-features {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+  padding: 5rem 7rem;
+}
