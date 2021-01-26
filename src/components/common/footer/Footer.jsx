@@ -15,7 +15,6 @@ const Footer = () => {
     <footer className="footer">
       <div className="left">
         <Logo fill="white" />
-
         <ul className="footer__anchor-list">
           <li className="footer__anchor-item">
             <Link to="/" className="footer__anchor-link">Home</Link>

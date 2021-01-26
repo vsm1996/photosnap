@@ -1,10 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import Logo from '../logo/Logo';
+import { ReactComponent as MenuIcon } from '../../../assets/shared/mobile/menu.svg'
 
 import './nav.css'
 
 const Nav = () => {
+
   return (
     <nav className='nav'>
       <Logo fill="black" />
@@ -19,6 +21,7 @@ const Nav = () => {
         </li>
       </ul>
       <Link to='/' className="nav__link"> Get An Invite </Link>
+      <MenuIcon className="menu-icon" />
     </nav>
   )
 }
