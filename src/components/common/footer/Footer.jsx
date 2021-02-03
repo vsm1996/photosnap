@@ -15,38 +15,42 @@ const Footer = () => {
     <footer className="footer">
       <div className="left">
         <Logo fill="white" />
-        <ul className="footer__anchor-list">
-          <li className="footer__anchor-item">
-            <Link to="/" className="footer__anchor-link">Home</Link>
-          </li>
-          <li className="footer__anchor-item">
-            <Link to="/stories" className="footer__anchor-link">Stories</Link>
-          </li>
-          <li className="footer__anchor-item">
-            <Link to="/features" className="footer__anchor-link">Features</Link>
-          </li>
-          <li className="footer__anchor-item">
-            <Link to="/pricing" className="footer__anchor-link">Pricing</Link>
-          </li>
-        </ul>
 
-        <ul className="footer__social-list">
-          <li className="footer__social-item">
-            <FacebookIcon fill="currentColor" className="footer__social-icon" />
-          </li>
-          <li className="footer__social-item">
-            <YoutubeIcon fill="currentColor" className="footer__social-icon" />
-          </li>
-          <li className="footer__social-item">
-            <TwitterIcon fill="currentColor" className="footer__social-icon" />
-          </li>
-          <li className="footer__social-item">
-            <PinterestIcon fill="currentColor" className="footer__social-icon" />
-          </li>
-          <li className="footer__social-item">
-            <InstagramIcon fill="currentColor" className="footer__social-icon" />
-          </li>
-        </ul>
+        <div className="list-column">
+          <ul className="footer__anchor-list">
+            <li className="footer__anchor-item">
+              <Link to="/" className="footer__anchor-link">Home</Link>
+            </li>
+            <li className="footer__anchor-item">
+              <Link to="/stories" className="footer__anchor-link">Stories</Link>
+            </li>
+            <li className="footer__anchor-item">
+              <Link to="/features" className="footer__anchor-link">Features</Link>
+            </li>
+            <li className="footer__anchor-item">
+              <Link to="/pricing" className="footer__anchor-link">Pricing</Link>
+            </li>
+          </ul>
+
+          <ul className="footer__social-list">
+            <li className="footer__social-item">
+              <FacebookIcon fill="currentColor" className="footer__social-icon" />
+            </li>
+            <li className="footer__social-item">
+              <YoutubeIcon fill="currentColor" className="footer__social-icon" />
+            </li>
+            <li className="footer__social-item">
+              <TwitterIcon fill="currentColor" className="footer__social-icon" />
+            </li>
+            <li className="footer__social-item">
+              <PinterestIcon fill="currentColor" className="footer__social-icon" />
+            </li>
+            <li className="footer__social-item">
+              <InstagramIcon fill="currentColor" className="footer__social-icon" />
+            </li>
+          </ul>
+        </div>
+
       </div>
       <div className="right">
         <Link to='/' className="home__content-link home__content-link2 font-white">

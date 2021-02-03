@@ -63,6 +63,7 @@
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 2px;
+  text-align: center;
 }
 
 .home__link-span {
@@ -121,14 +122,17 @@
   .createnshare {
     background: url("../../assets/home/tablet/create-and-share.jpg") no-repeat
       center;
+    background-size: cover;
   }
   .beautifulstories {
     background: url("../../assets/home/tablet/beautiful-stories.jpg") no-repeat
       center;
+    background-size: cover;
   }
   .desgin4everyone {
     background: url("../../assets/home/tablet/designed-for-everyone.jpg")
       no-repeat center;
+    background-size: cover;
   }
 }
 
