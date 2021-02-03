@@ -107,7 +107,6 @@ const Stories = () => {
     <div className="stories">
       <StoriesHeader />
       <div className="home__cards">
-
         {cards.map((card, index) => <StoryCard key={index} card={card} />)}
       </div>
     </div>
