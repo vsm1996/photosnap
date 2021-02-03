@@ -4,10 +4,11 @@ import { ReactComponent as Arrow } from '../../../assets/shared/desktop/arrow.sv
 
 import './storycard.css'
 const StoryCard = ({ card }) => {
-  const { title, author, bg } = card
+  const { title, author, date, bg } = card
   return (
     <div className={`story-card ${bg}`}>
       <div className="story-card__content">
+        <small className="story-card__photographer">{date ? date : null}</small>
         <h3 className="story-card__title">
           {title}
         </h3>

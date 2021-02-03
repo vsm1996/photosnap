@@ -5,10 +5,10 @@
   display: inline-flex;
   flex-direction: column;
   justify-content: flex-end;
-  border-bottom: 0.375rem solid transparent;
 }
 
 .story-card:hover {
+  border-bottom: 0.375rem solid transparent;
   transition: transform 0.5s ease-in-out;
   transform: translate(0, -30px);
   border-image: var(--color-accent) 100% 1;
@@ -69,6 +69,78 @@
   background-size: cover;
 }
 
+.world-tour {
+  background: url("../../../assets/stories/desktop/world-tour.jpg") center
+    no-repeat;
+  background-size: cover;
+}
+
+.unforeseen-corners {
+  background: url("../../../assets/stories/desktop/unforeseen-corners.jpg")
+    center no-repeat;
+  background-size: cover;
+}
+
+.king-on-africa {
+  background: url("../../../assets/stories/desktop/king-on-africa.jpg") center
+    no-repeat;
+  background-size: cover;
+}
+
+.trip-to-nowhere {
+  background: url("../../../assets/stories/desktop/trip-to-nowhere.jpg") center
+    no-repeat;
+  background-size: cover;
+}
+
+.rage-of-the-sea {
+  background: url("../../../assets/stories/desktop/rage-of-the-sea.jpg") center
+    no-repeat;
+  background-size: cover;
+}
+
+.running-free {
+  background: url("../../../assets/stories/desktop/running-free.jpg") center
+    no-repeat;
+  background-size: cover;
+}
+
+.behind-the-waves {
+  background: url("../../../assets/stories/desktop/behind-the-waves.jpg") center
+    no-repeat;
+  background-size: cover;
+}
+
+.calm-waters {
+  background: url("../../../assets/stories/desktop/calm-waters.jpg") center
+    no-repeat;
+  background-size: cover;
+}
+
+.milky-way {
+  background: url("../../../assets/stories/desktop/milky-way.jpg") center
+    no-repeat;
+  background-size: cover;
+}
+
+.dark-forest {
+  background: url("../../../assets/stories/desktop/dark-forest.jpg") center
+    no-repeat;
+  background-size: cover;
+}
+
+.somwarpet {
+  background: url("../../../assets/stories/desktop/somwarpet.jpg") center
+    no-repeat;
+  background-size: cover;
+}
+
+.land-of-dreams {
+  background: url("../../../assets/stories/desktop/land-of-dreams.jpg") center
+    no-repeat;
+  background-size: cover;
+}
+
 @media only screen and (max-width: 800px) {
   .story-card {
     width: 100%;
@@ -107,6 +179,78 @@
 
   .architecturals {
     background: url("../../../assets/stories/mobile/architecturals.jpg") center
+      no-repeat;
+    background-size: cover;
+  }
+
+  .world-tour {
+    background: url("../../../assets/stories/mobile/world-tour.jpg") center
+      no-repeat;
+    background-size: cover;
+  }
+
+  .unforeseen-corners {
+    background: url("../../../assets/stories/mobile/unforeseen-corners.jpg")
+      center no-repeat;
+    background-size: cover;
+  }
+
+  .king-on-africa {
+    background: url("../../../assets/stories/mobile/king-on-africa.jpg") center
+      no-repeat;
+    background-size: cover;
+  }
+
+  .trip-to-nowhere {
+    background: url("../../../assets/stories/mobile/trip-to-nowhere.jpg") center
+      no-repeat;
+    background-size: cover;
+  }
+
+  .rage-of-the-sea {
+    background: url("../../../assets/stories/mobile/rage-of-the-sea.jpg") center
+      no-repeat;
+    background-size: cover;
+  }
+
+  .running-free {
+    background: url("../../../assets/stories/mobile/running-free.jpg") center
+      no-repeat;
+    background-size: cover;
+  }
+
+  .behind-the-waves {
+    background: url("../../../assets/stories/mobile/behind-the-waves.jpg")
+      center no-repeat;
+    background-size: cover;
+  }
+
+  .calm-waters {
+    background: url("../../../assets/stories/mobile/calm-waters.jpg") center
+      no-repeat;
+    background-size: cover;
+  }
+
+  .milky-way {
+    background: url("../../../assets/stories/mobile/milky-way.jpg") center
+      no-repeat;
+    background-size: cover;
+  }
+
+  .dark-forest {
+    background: url("../../../assets/stories/mobile/dark-forest.jpg") center
+      no-repeat;
+    background-size: cover;
+  }
+
+  .somwarpet {
+    background: url("../../../assets/stories/mobile/somwarpet.jpg") center
+      no-repeat;
+    background-size: cover;
+  }
+
+  .land-of-dreams {
+    background: url("../../../assets/stories/mobile/land-of-dreams.jpg") center
       no-repeat;
     background-size: cover;
   }
