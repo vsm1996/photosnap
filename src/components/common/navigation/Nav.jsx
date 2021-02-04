@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import Logo from '../logo/Logo';
-import { ReactComponent as MenuOpen } from '../../../assets/shared/mobile/menu.svg'
+// import { ReactComponent as MenuOpen } from '../../../assets/shared/mobile/menu.svg'
 import { ReactComponent as MenuClose } from '../../../assets/shared/mobile/close.svg'
 
 import './nav.css'
