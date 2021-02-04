@@ -11,10 +11,10 @@
 .stories__header-container:hover {
   background: url("../../assets/stories/desktop/moon-of-appalacia.jpg"),
     radial-gradient(
-      68.48% 68.48% at 0% 100%,
-      #ffc593 0%,
-      rgba(188, 113, 152, 0.496968) 52.36%,
-      rgba(90, 119, 255, 0.0001) 100%
+      68.48% 68.48% at 0 100%,
+      rgba(239, 195, 148, 0.9),
+      rgba(188, 113, 152, 0.55) 52.36%,
+      rgba(90, 119, 255, 0.3) 100%
     );
 
   background-blend-mode: multiply;

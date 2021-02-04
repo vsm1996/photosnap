@@ -137,16 +137,35 @@
 }
 
 @media only screen and (max-width: 650px) {
+  .home__content {
+    flex-direction: column-reverse;
+  }
+
+  .home__content-first {
+    padding: 3rem 1rem;
+    border-width: 0.375rem;
+    border-style: solid;
+    border-image: var(--color-accent) 1 100%;
+  }
+  .home__content-second {
+    padding: 3rem 1rem;
+  }
   .createnshare {
     background: url("../../assets/home/mobile/create-and-share.jpg") no-repeat
       center;
+    background-size: cover;
+    height: 294px;
   }
   .beautifulstories {
     background: url("../../assets/home/mobile/beautiful-stories.jpg") no-repeat
       center;
+    background-size: cover;
+    height: 271px;
   }
   .desgin4everyone {
     background: url("../../assets/home/mobile/designed-for-everyone.jpg")
       no-repeat center;
+    background-size: cover;
+    height: 271px;
   }
 }
