@@ -3,6 +3,7 @@ import { Switch, Route } from "react-router-dom";
 import Nav from "./components/common/navigation/Nav";
 import Home from "./pages/home/Home";
 import Stories from "./pages/stories/Stories";
+import Features from "./pages/features/Features";
 import Footer from "./components/common/footer/Footer";
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/stories" component={Stories} />
+        <Route exact path="/features" component={Features} />
       </Switch>
       <Footer />
     </div>
