@@ -30,7 +30,14 @@
 
 .features {
   background: url("../../../assets/features/desktop/hero.jpg") no-repeat center;
-  /* background-size: cover; */
+  background-size: cover;
+  width: 2390px;
+  height: 490px;
+}
+
+.pricing {
+  background: url("../../../assets/pricing/desktop/hero.jpg") no-repeat center;
+  background-size: cover;
   width: 2390px;
   height: 490px;
 }
