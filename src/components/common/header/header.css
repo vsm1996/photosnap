@@ -41,3 +41,35 @@
   width: 2390px;
   height: 490px;
 }
+
+@media only screen and (max-width: 876px) {
+  .features {
+    background: url("../../../assets/features/tablet/hero.jpg") no-repeat center;
+    background-size: cover;
+    width: 768px;
+    height: 490px;
+  }
+
+  .pricing {
+    background: url("../../../assets/pricing/tablet/hero.jpg") no-repeat center;
+    background-size: cover;
+    width: 768px;
+    height: 490px;
+  }
+}
+
+@media only screen and (max-width: 690px) {
+  .features {
+    background: url("../../../assets/features/mobile/hero.jpg") no-repeat center;
+    background-size: cover;
+    width: 375px;
+    height: 294px;
+  }
+
+  .pricing {
+    background: url("../../../assets/pricing/mobile/hero.jpg") no-repeat center;
+    background-size: cover;
+    width: 375px;
+    height: 294px;
+  }
+}
