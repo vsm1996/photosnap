@@ -8,12 +8,7 @@
   padding: 122px 112px;
 }
 .stories__header-container:hover {
-  background: radial-gradient(
-      68.48% 68.48% at 0% 100%,
-      rgba(255, 197, 147, 0.47) 0%,
-      rgba(188, 113, 152, 0.476968) 52.36%,
-      rgba(90, 119, 255, 0.0001) 100%
-    ),
+  background: var(--color-accent),
     url("../../assets/stories/desktop/moon-of-appalacia.jpg") no-repeat center;
 }
 .stories__header {
