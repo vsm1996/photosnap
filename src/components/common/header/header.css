@@ -59,6 +59,11 @@
 }
 
 @media only screen and (max-width: 690px) {
+  .header__container {
+    flex-direction: column-reverse;
+    align-items: unset;
+  }
+
   .features {
     background: url("../../../assets/features/mobile/hero.jpg") no-repeat center;
     background-size: cover;

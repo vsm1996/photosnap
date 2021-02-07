@@ -11,8 +11,9 @@
   }
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 750px) {
   .features__cards {
     grid-template-columns: repeat(1, minmax(0, 1fr));
+    padding: 0rem;
   }
 }

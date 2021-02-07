@@ -5,6 +5,10 @@
   background-color: var(--color-black);
   color: var(--color-white);
 
+  border-width: 0 0 0 0.375rem;
+  border-style: solid;
+  border-image: var(--color-accent) 1 100%;
+
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -15,7 +19,7 @@
 .card-initial {
   width: 350px;
   height: 407px;
-  background-color: var(--color-grey);
+  background-color: #f5f5f5;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -23,10 +27,86 @@
   text-align: center;
 }
 
+.card__text-init {
+  color: var(--color-black);
+  opacity: 0.6;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.card__text-mid {
+  color: var(--color-center);
+  opacity: 0.6;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.card__time-init {
+  display: block;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: var(--color-black);
+  opacity: 0.6;
+}
+.card__time-mid {
+  display: block;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: var(--color-white);
+  opacity: 0.6;
+}
+
+.pricing-card__link-init {
+  text-decoration: none;
+  text-transform: uppercase;
+
+  background-color: var(--color-black);
+  color: var(--color-white);
+  padding: 0.75rem 1.5rem;
+
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.pricing-card__link-init:hover {
+  background-color: var(--color-grey);
+  color: var(--color-black);
+}
+
+.pricing-card__link-mid {
+  text-decoration: none;
+  text-transform: uppercase;
+
+  background-color: var(--color-white);
+  color: var(--color-black);
+  padding: 0.75rem 1.5rem;
+
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.pricing-card__link-mid:hover {
+  background-color: var(--color-grey);
+  color: var(--color-black);
+}
+
 @media only screen and (max-width: 876px) {
   .card-mid {
     width: 689px;
     height: 270px;
+    margin: 1.5rem 0;
   }
 
   .card-initial {
