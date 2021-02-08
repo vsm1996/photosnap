@@ -129,4 +129,8 @@
   .footer__anchor-item {
     margin: 10px 0;
   }
+
+  .footer__copyright {
+    margin-top: 1rem;
+  }
 }
