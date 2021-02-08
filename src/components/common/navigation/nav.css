@@ -136,16 +136,6 @@
     display: inline-block;
     margin-left: 50%;
   }
-
-  /* .menu-icon__open {
-    display: inline-block;
-    margin-left: 20.5%;
-  }
-
-  .menu-icon__close {
-    display: inline-block;
-    margin-left: 20.5%;
-  } */
 }
 
 @media only screen and (max-width: 427px) {
@@ -160,6 +150,6 @@
 }
 @media only screen and (max-width: 327px) {
   .menu-icon {
-    margin-left: 15%;
+    margin-left: 10%;
   }
 }
