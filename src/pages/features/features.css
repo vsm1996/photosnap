@@ -8,6 +8,7 @@
 @media only screen and (max-width: 1140px) {
   .features__cards {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+    padding: 5rem 4rem;
   }
 }
 
@@ -15,5 +16,6 @@
   .features__cards {
     grid-template-columns: repeat(1, minmax(0, 1fr));
     padding: 0rem;
+    margin: 2.5rem 0;
   }
 }

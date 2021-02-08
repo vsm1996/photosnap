@@ -35,3 +35,9 @@
 .embed {
   background: url("../../../assets/features/desktop/embed.svg") center no-repeat;
 }
+
+@media only screen and (max-width: 750px) {
+  .feature-card {
+    margin: 0 auto;
+  }
+}

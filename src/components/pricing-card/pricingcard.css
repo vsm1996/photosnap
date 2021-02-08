@@ -102,6 +102,12 @@
   color: var(--color-black);
 }
 
+@media only screen and (max-width: 1200px) {
+  .card-mid {
+    margin: 0 12px;
+  }
+}
+
 @media only screen and (max-width: 876px) {
   .card-mid {
     width: 689px;
