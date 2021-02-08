@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import Logo from '../logo/Logo';
-// import { ReactComponent as MenuOpen } from '../../../assets/shared/mobile/menu.svg'
+import { ReactComponent as MenuOpen } from '../../../assets/shared/mobile/menu.svg'
 import { ReactComponent as MenuClose } from '../../../assets/shared/mobile/close.svg'
 
 import './nav.css'
@@ -24,8 +24,8 @@ const Nav = () => {
         </li>
       </ul>
       <Link to='/' className="nav__link"> Get An Invite </Link>
-      {/* <MenuOpen className={show ? 'menu-icon hide' : 'menu-icon show'} onClick={() => setDisplay(!show)} /> */}
-      <MenuClose className={show ? 'menu-icon show' : 'menu-icon hide'} onClick={() => setDisplay(!show)} />
+      <MenuOpen className={show === true ? 'hide' : 'menu-icon show'} onClick={() => setDisplay(!show)} />
+      <MenuClose className={show === true ? 'menu-icon show' : 'hide'} onClick={() => setDisplay(!show)} />
 
       <div className={show ? 'mobile-nav__modal show-modal' : 'mobile-nav__modal hide'}>
         <ul className='mobile-nav__list'>
