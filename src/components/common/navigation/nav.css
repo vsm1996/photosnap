@@ -42,10 +42,6 @@
   color: var(--color-black);
 }
 
-.menu-icon {
-  display: none;
-}
-
 .mobile-nav__list {
   display: flex;
   height: 50vh;
@@ -138,7 +134,7 @@
 
   .menu-icon {
     display: inline-block;
-    margin-left: 7rem;
+    margin-left: 50%;
   }
 
   /* .menu-icon__open {
