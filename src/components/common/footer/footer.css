@@ -30,7 +30,7 @@
   list-style: none;
   display: inline-flex;
   flex-direction: column;
-  margin: 1rem 0;
+  margin: -2rem 0 0 13rem;
 }
 
 .footer__social-item {
