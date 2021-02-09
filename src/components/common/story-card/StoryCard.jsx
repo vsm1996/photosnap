@@ -8,7 +8,7 @@ const StoryCard = ({ card }) => {
   return (
     <div className={`story-card ${bg}`}>
       <div className="story-card__content">
-        <small className="story-card__photographer">{date ? date : null}</small>
+        <small className="story-card__date">{date ? date : null}</small>
         <h3 className="story-card__title">
           {title}
         </h3>

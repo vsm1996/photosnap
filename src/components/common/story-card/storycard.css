@@ -39,6 +39,10 @@
   margin-bottom: 1rem;
 }
 
+.story-card__date {
+  margin-bottom: 1rem;
+}
+
 .hr {
   background-color: var(--color-white);
   opacity: 0.25;
