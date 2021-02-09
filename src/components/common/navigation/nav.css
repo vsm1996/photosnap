@@ -75,7 +75,9 @@
 
 .mobile-nav__link {
   text-decoration: none;
-  display: inline-block;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   margin: 20px 0;
   width: 85%;
