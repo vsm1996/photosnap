@@ -2,6 +2,7 @@
   background: url("../../assets/stories/desktop/moon-of-appalacia.jpg")
     no-repeat center;
   height: 650px;
+  background-size: cover;
 
   color: var(--color-white);
 
@@ -15,6 +16,7 @@
       rgba(90, 119, 255, 0.0001) 100%
     ),
     url("../../assets/stories/desktop/moon-of-appalacia.jpg") no-repeat center;
+    background-size: cover;
 }
 .stories__header {
   width: 387px;
